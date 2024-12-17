@@ -47,16 +47,16 @@ elif page == "예산 확인":
 
     st.subheader("예산 구성")
     st.write("- 10,000원 한 장")
-    st.image(load_image("만원.jpg"), width=200, caption="10,000원")
+    st.image(load_image("만원.png"), width=200, caption="10,000원")
 
     st.write("- 5,000원 두 장")
-    st.image(load_image("오천원.jpg"), width=200, caption="5,000원 X 2")
-    st.image(load_image("오천원.jpg"), width=200)
+    st.image(load_image("오천원.png"), width=200, caption="5,000원 X 2")
+    st.image(load_image("오천원.png"), width=200)
 
     st.write("- 1,000원 다섯 장")
     cols = st.columns(5)
     for col in cols:
-        col.image(load_image("천원.jpg"), width=200)
+        col.image(load_image("천원.png"), width=200)
 
 elif page == "마트 예절":
     st.title("마트에서 지켜야 할 예절")
@@ -68,12 +68,12 @@ elif page == "물건 구매":
     items = {
         "가나초콜릿": (2000, "가나초콜릿.png"),
         "코카콜라": (2500, "코카콜라.png"),
-        "지우개": (1000, "지우개.jpg"),
-        "부루마블": (9000, "부루마블.jpg"),
+        "지우개": (1000, "지우개.png"),
+        "부루마블": (9000, "부루마블.png"),
         "서울우유": (1500, "서울우유.png"),
-        "필통": (4000, "필통.jpg"),
-        "허니버터칩": (3000, "허니버터칩.jpg"),
-        "귤": (1000, "귤.jpg"),
+        "필통": (4000, "필통.png"),
+        "허니버터칩": (3000, "허니버터칩.png"),
+        "귤": (1000, "귤.png"),
         "바나나": (1500, "바나나.jpeg"),
     }
 
